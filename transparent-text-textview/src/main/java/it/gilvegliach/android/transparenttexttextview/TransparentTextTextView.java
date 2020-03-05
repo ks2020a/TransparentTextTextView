@@ -32,9 +32,9 @@ import android.graphics.drawable.Drawable;
 
 import android.util.AttributeSet;
 
-import android.widget.TextView;
+import androidx.appcompat.widget.AppCompatTextView;
 
-public class TransparentTextTextView extends TextView {
+public class TransparentTextTextView extends AppCompatTextView {
     private Bitmap mMaskBitmap;
     private Canvas mMaskCanvas;
     private Paint mPaint;
